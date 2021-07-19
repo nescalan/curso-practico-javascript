@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 80%;
+  height: 600px;
+  margin: 50px auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    border: 1px solid red;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*# sourceMappingURL=descuentos.css.map */
