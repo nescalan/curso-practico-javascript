@@ -3,7 +3,9 @@ console.group("Cuadrados")
 const ladoCuadrado = 5;
 console.log("Los lados del cuadrado miden: " + ladoCuadrado);
 
-const perimetroCuadrado = ladoCuadrado * 4;
+function perimetroCuadrado(){
+    return ladoCuadrado * 4;
+} 
 console.log("El perimetro del cuadrado es: " + perimetroCuadrado);
 
 const areaCuadrado = ladoCuadrado * ladoCuadrado;
