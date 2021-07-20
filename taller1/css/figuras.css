@@ -1,0 +1,32 @@
+:root {
+  --fontFamily: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.3rem;
+  font-family: var(--fontFamily);
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/* ********** container ********** */
+.container {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #cad2d9;
+}
+.container h2 {
+  text-align: center;
+}
+/* ********** end container ********** */
