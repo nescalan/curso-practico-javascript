@@ -1,6 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -20,22 +20,40 @@ html {
   margin: 50px auto;
 }
 
+.container header h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.container .discount-card {
+  width: 300px;
+  border: 3px solid blue;
+}
+
+.gid-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  place-content: center center;
+  border: 1px solid red;
+}
+
 @media (min-width: 768px) {
-  .container {
+  .grid-container {
     width: 750px;
     border: 1px solid red;
   }
 }
 
 @media (min-width: 992px) {
-  .container {
+  .grid-container {
     width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1170px;
+  .grid-container {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=descuentos.css.map */

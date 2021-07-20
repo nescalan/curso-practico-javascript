@@ -14,29 +14,41 @@
     />
   </head>
   <body>
-    <div class="container">
-      <nav>
-        <h1>Porcentajes y Descuentos</h1>
-        <p>Estes es el segundo taller prácto de JavaScript</p>
-      </nav>
+    
+    <div class="gid-container">
+      <div class="a">      
+        <header>
+          <h1>Porcentajes y Descuentos</h1>
+          <h2>Calcula el descuento de tus productos</h2>
+        </header>
+      </div>
+      <div class="b">
+          <form action="">
+            <label for="InputPrice">Escribe el precio de tu producto: </label>
+            <input id="InputPrice" type="number" />
+            <br>
 
-      <section>
-        <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+            <label for="InputDiscount">Escribe el descuento del producto:</label>
+            <input id="InputDiscount" type="number" />
+            <br>
 
-        <form action="">
-          <label for="InputPrice">Escribe el precio de tu producto: </label>
-          <input id="InputPrice" type="number" />
+            <button type="button" onclick="onClickButtonPriceDiscount()">
+              Calcular el precio con descuento
+            </button>
+          </form>
 
-          <label for="InputDiscount">Escribe el descuento del producto:</label>
-          <input id="InputDiscount" type="number" />
-
-          <button type="button" onclick="onClickButtonPriceDiscount()">
-            Calcular el precio con descuento
-          </button>
-        </form>
-
-        <p id="ResultP"></p>
-      </section>
+          <p id="ResultP"></p>
+      </div>
+      <div class="c">
+          <div class="cupones-descuentos" onchange="calcularCuponDescuento()">  
+            <select id="inputCupones" name="cupones" >
+              <option>Seleccione el Cupon</option>
+              <option value="15">15%</option>
+              <option value="20">20%</option>
+              <option value="25">25%</option>
+            </select>
+          </div>
+      </div>
     </div>
 
     <script src="./descuentos.js"></script>

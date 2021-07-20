@@ -3,17 +3,10 @@ console.group("Cuadrados");
 // const ladoCuadrado = 5;
 // console.log("Los lados del cuadrado miden: " + ladoCuadrado + "cm");
 
-<<<<<<< HEAD
-function perimetroCuadrado(){
-    return ladoCuadrado * 4;
-} 
-console.log("El perimetro del cuadrado es: " + perimetroCuadrado);
-=======
 function perimetroCuadrado(lado) {
   return lado * 4;
 }
 // console.log("El perímetro del cuadrado es: " + perimetroCuadrado + "cm");
->>>>>>> ddf19ae90e0b82786a1d234cdf11aa2dc86a2aa8
 
 function areaCuadrado(lado) {
   return lado * lado;
